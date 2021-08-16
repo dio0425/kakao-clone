@@ -23,8 +23,6 @@
   align-content: center;
 }
 
-.status-bar__column .fa-battery-full {
-}
-
-.status-bar__column .fa-bolt {
+.fa-battery-full {
+  margin: 0px 2px;
 }
