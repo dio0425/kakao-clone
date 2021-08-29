@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - KaKaoTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="noti-dot"></span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="css/img/images.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user_component__title">Ru_Ri</h4>
+            <h6 class="user-component__subtitle">
+              + 010-4172-3738<i class="fas fa-exclamation"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-alt"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-inbox"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comment"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAADYCAMAAAC+/t3fAAAAolBMVEX/5QD////VvwAAAAD34QD54gDw1wDy4FTz3AD84wD58K/+/PLw2QD13wD58bPz5XH47qf6877q0gDEsACThAAUEgD9++v+/ffbxQArJwAzLgD37Jrw2ysODQBXTgCaigBPRwCjkgAfHACLfQBCOwBhVwBJQgCEdwBtYgC2owD26o769svx3UT05XX8+Np2agD16ITz4V7265Pw2zT8+eH79tOCaUAxAAAE40lEQVR4nO3d2VbbMBCAYQfJjt3IDSRACMTQ0rKVQAnL+79aJYe1UDTneGZkqfP3pnfoO7JlxXYgUy81h0fTSRZn1WS6/a15hcme/zf/XoceXdeK7eN3sJ2j0KNCqfrRvIX9jPUQfNfe/mvYSRV6PHiVpy+wk9CDQa06fYL9TGi+XOV8DdtJ5vx6aqNpYWmsh286c7B56FEQVO9Y2PfQo6DoTGVN9PuNj5qo7DD0GGjazxJcOlzn2TT0EGg6ypK7iK27CD0AqhI9EO3mI/QAqBJYbAkstgQWWwKLLYHFlsBiS2CxJbDYElhsCSy2BBZbAostgcUWIqzSSKG8nIEI06ZAydQYMjxYpYcDlL6UGmE4AvOWC0xgXRKYN4EJrFMC8yYwgXVKYN4EJrBOCcybwATWKYF5E5jAOiUwbwITWKcE5k1gAuuUwLwJTGCdEpg3gQmsUwLzJjCBdUpg3gQmsE4JzJvA/lvYpsA+S2De0GAHZY4wnB7CftWJwm5ShY1Tha10orAlyteReghbpAorMC5jPYTtmkRhl6nCcDb3PYThbDx6CMO5jPUQhrPa9w82Mz2EjTzNADCkRREVZjwVXwGwA5xFEfXrwr7MNQA2xlk7ML+5nnvSBuCya0fvYNXnwRaXe6S1A/W3Q3hg5S0AhrTv4Py1F9o8AGA4H58zXhjANcA6EvlgVT0GuK7jg2mzBYDdYp1inDDIvmOJtNjzwfL6CuDaLaKDaXMJgNn9FNZfM2KD3QFciEciFywvNwEuuybGBoMtHb/wjkQmWF7eQI5EvKWDC6aLXYBrC3HCeGDACVvVeWQwbUYA132BOGEsMF0eQCbsqo4MVtULyJI4wlw6WGCw7a/b/2L+DUV6WF5CPq8MRvbiHBWs0gay1GNuE9vIYdpA7iaiTxg5DHggou6m2ohhVX0HuYS5x5i4E0YMq2B3f+01rERd6zNqmAbdrrefVwrsCaOFaQO5R2obom462ihhGrhwDL6gn2GkMF2uIFspgqXeRQfT5RDmGoyxl3oXGQzu2qKYMDIY3DVaIP2S6rcRwey6AXS5A5Fgwmhg9roMuhfg+kpyINLA8hp4XR60TzApDkQSmC4XkEd8bbOlvTRHAqvqJWjf23ZFc4JlJDDgrQDXJtEJltHAwLJLd4LFA8uhsntCF8XiAZWN7mqyA5FmuYfJZkOyhcNFc4F2Ms+lbLYidRFtqQCydicVHcwvuyJ2ke3uPbIbahfd57FPZXa+6Bb6dXSfoJ3s483wbEzvorzn8S/Zej0kdpHepfpYtrvkcNHeV2xlf73gcb2oOVzUt7jfybYMj4v8ocRfsttC87jIHyO9kY1WhsvF8ETzRfawKNlcDM+g2yu1kx2sTy8eF8vrEK3sfsg4XRnPCyytzE4Xp4vnlSMn04yHoYvn7bfKfbeFk8X2Imb7JRCeH/UY1zvB3C7Gr4AwJ7DYElhsCSy2BBZbAostgcWWwGIrYRjzB0Cuptkk9BBourC0JNu2/5LsJPsWegg0zbOmCD0GivZUppI8Fn9b2HGCC75pLEz9CD0M/M6VgzV7oceB3VS1MLVfhh4JbpPjR5g6Teo0K/bVE0ydJjRnk9b1CFPzZLb502P1Gqaaszr0kDAy54+eZ5hSO2fRb/T3fjfqPcwtj+dHF9ONKJtebJ/MX1v+AMpWW+EHYEFYAAAAAElFTkSuQmCC"
+              />
+            </div>
+            <span class="more-suggestions__icon-text">Kakao Story</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/205006a1d6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
